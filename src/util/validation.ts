@@ -1,8 +1,3 @@
-// Validation
-
-namespace App {
-
-
 
 export interface Validatable {
     value: string | number;
@@ -37,6 +32,4 @@ export function validate(validatableInput: Validatable) {
     }
 
     return isValid;
-}
-
 }
